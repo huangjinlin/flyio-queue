@@ -1,6 +1,6 @@
 {
   "name": "flyio-queue",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "<!-- not to html -->\r # flyio-queue",
   "main": "index.js",
   "scripts": {
