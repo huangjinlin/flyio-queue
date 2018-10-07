@@ -45,6 +45,8 @@ function outPool() {
     // console.log('time', moment().format('HH:mm:ss'))
     queue().then(() => {
       cb()
+    }, () => {
+      cb()
     })
   }
 }
@@ -68,6 +70,9 @@ function request(url, param, options, method) {
     // console.log('done')
     // console.log('currentPoolSize', currentPoolSize)
     // console.log('time', moment().format('HH:mm:ss'))
+    outPool()
+  }, () => {
+    currentPoolSize -= 1
     outPool()
   })
   return p
