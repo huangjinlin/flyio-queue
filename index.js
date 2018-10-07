@@ -4,7 +4,7 @@ const _ = require('underscore')
 
 let interval = 1
 let requestTime = moment()
-let poolSize = 2
+let poolSize = 1
 let currentPoolSize = 0
 let pool = []
 function setOptions(options) {
