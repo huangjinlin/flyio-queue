@@ -1,6 +1,6 @@
 {
   "name": "flyio-queue",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "<!-- not to html -->\r # flyio-queue",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/huangjinlin/flyio-queue#readme",
   "dependencies": {
+    "axios": "^0.18.0",
     "flyio": "^0.6.1",
     "moment": "^2.22.2",
     "underscore": "^1.9.1"

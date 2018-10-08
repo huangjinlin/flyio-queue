@@ -1,4 +1,5 @@
 const fly = require('flyio')
+const axios = require('axios')
 const moment = require('moment')
 const _ = require('underscore')
 
@@ -56,7 +57,7 @@ function request(url, param, options, method) {
       // setTimeout(() => {
       //    resolve({data: {name: 'hjl'}})
       // }, _.random(5, 8)*1000)
-      fly[method](url, _.extend({}, param), options)
+      axios[method](url, _.extend({}, param), options)
       .then(function (response) {
         resolve(response)
       })

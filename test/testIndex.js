@@ -23,5 +23,5 @@ function testRequestMockData() {
     })
   }
 }
-// testRequestDoubanMovie()
-testRequestMockData()
+testRequestDoubanMovie()
+// testRequestMockData()
